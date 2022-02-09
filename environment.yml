@@ -1,0 +1,14 @@
+name: envMPCy3.8
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - pip
+  - matplotlib
+  - openpyxl
+  - pip:
+      - do-mpc
+      - python-snap7
+      - opcua

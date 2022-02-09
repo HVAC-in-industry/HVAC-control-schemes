@@ -1,0 +1,27 @@
+﻿# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+### VS Code ###
+.vscode/
+
+### PyCharm ###
+*.idea
+
+### Jupyter Notebook ###
+.ipynb_checkpoints
+
+### analytics output ###
+*.png
+
+### Python ###
+*.pyc
+
+### Environments ###
+*env
+*.zip
+
+### Reports ###
+*.pdf
+*.coverage
+*.html
+*.js
+*.css
