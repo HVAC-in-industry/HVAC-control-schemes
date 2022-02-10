@@ -1,5 +1,7 @@
 # Model-predictive control schemes for HVAC systems applied to the case of battery production
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 In order to continuously leverage the energy efficiency potential of HVAC systems in the operation phase, automated control is essential. 
 To implement automated control, accurate indoor air condition monitoring in the building is necessary as part of the control approach.
 For automated control, four main control schemes with increasing complexity can be distinguished with regard to the TBS:
