@@ -49,6 +49,27 @@ def P_controller(actual_value: float, set_point: float, u_max: float=3.55, u_min
         u = np.ones((1, 1)) * u_min
     return u
 
+def simpleLinearControl(actual_value: float, set_point: float, u_max: float=11500, u_min: float=8000,
+                        m:float=133.333, offset:float=9500):
+    """
+    This function implements a generic proportional controller with a manipulated variable limitation in Python
+    :param actual_value: float: generic actual input value of control circuit
+    :param set_point: float: set point for the manipulated value u
+    :param u_max: float: max. value of manipulated value u
+    :param u_min: float: min. value of manipulated value u
+    :param m: float: Slope of the proportional controller
+    :param offset: float: Offset for proportional controller
+    :return float: manipulated value u
+    """
+    e = actual_value - set_point
+    u = m * e + offset
+    if u > u_max:
+        u = u_max
+    elif u < u_min:
+        u = u_min
+    return u
+
+
 if __name__ == '__main__':
 
     path = os.path.join(os.path.dirname(os.path.realpath(__file__)),
