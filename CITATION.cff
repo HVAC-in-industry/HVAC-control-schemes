@@ -5,9 +5,9 @@ authors:
     given-names: "Marcus"
     orcid: "https://orcid.org/0000-0003-1956-188X"
   - family-names: "Buchholz"
-  given-names: "Christian"
+    given-names: "Christian"
   - family-names: "Thiede"
-    given-names: Sebastian
+    given-names: "Sebastian"
     orcid: "https://orcid.org/0000-0003-1102-2611"
   - family-names: "Herrmann"
     given-names: "Christoph"
