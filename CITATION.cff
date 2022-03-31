@@ -1,22 +1,17 @@
 cff-version: 0.1
 message: "If you use this software, please cite it as below."
-preferred-citation:
-  type: article
-  authors:
-    - family-names: Vogt
-      given-names: Marcus
-      orcid: https://orcid.org/0000-0003-1956-188X
-    - family-names: Buchholz
-      given-names: Christian
-    - family-names: Thiede
-      given-names: Sebastian
-      orcid: https://orcid.org/0000-0003-1102-2611
-    - family-names: Herrmann
-      given-names: Christoph
-      orcid: https://orcid.org/0000-0002-5621-1822
-  title: "Energy efficiency of Heating, Ventilation and Air Conditioning systems in production environments through model-predictive control schemes: The case of battery production"
-  doi: 10.1016/j.jclepro.2022.131354
-  journal: "Journal of Cleaner Production"
-  month: 5
-  volume: 350
-  year: 2022
+authors:
+- family-names: Vogt
+  given-names: Marcus
+  orcid: https://orcid.org/0000-0003-1956-188X
+- family-names: Buchholz
+  given-names: Christian
+- family-names: Thiede
+  given-names: Sebastian
+  orcid: https://orcid.org/0000-0003-1102-2611
+- family-names: Herrmann
+  given-names: Christoph
+  orcid: https://orcid.org/0000-0002-5621-1822
+title: "Energy efficiency of Heating, Ventilation and Air Conditioning systems in production environments through model-predictive control schemes: The case of battery production"
+doi: 10.1016/j.jclepro.2022.131354
+date-released: 2022-03-22
