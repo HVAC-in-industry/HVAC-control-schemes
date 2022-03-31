@@ -7,7 +7,7 @@ title: >-
   through model-predictive control schemes: The case
   of battery production
 message: "If you use this software, please cite it as below."
-type: software
+type: article
 authors:
   - given-names: Marcus
     family-names: Vogt
@@ -24,8 +24,6 @@ identifiers:
   - type: doi
     value: 10.1016/j.jclepro.2022.131354
     description: The DOI of the associated article
-repository-code: >-
-  https://github.com/HVAC-in-industry/HVAC-control-schemes
 keywords:
   - Model-based control schemes
   - HVAC systems
