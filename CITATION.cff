@@ -7,7 +7,6 @@ title: >-
   through model-predictive control schemes: The case
   of battery production
 message: "If you use this software, please cite it as below."
-type: article
 authors:
   - given-names: Marcus
     family-names: Vogt
@@ -20,13 +19,6 @@ authors:
   - family-names: Herrmann
     given-names: Christoph
     orcid: "https://orcid.org/0000-0002-5621-1822"
-identifiers:
-  - type: doi
-    value: 10.1016/j.jclepro.2022.131354
-    description: The DOI of the associated article
-keywords:
-  - Model-based control schemes
-  - HVAC systems
-  - Energy efficiency
-license: CC-BY-NC-ND-4.0
+
+doi: 10.1016/j.jclepro.2022.131354
 date-released: "2022-03-22"
