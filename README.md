@@ -2,7 +2,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-In order to continuously leverage the energy efficiency potential of HVAC systems in the operation phase, automated control is essential. 
+In order to continuously leverage the energy efficiency potential of HVAC systems in the operation phase, automated control is essential.
 To implement automated control, accurate indoor air condition monitoring in the building is necessary as part of the control approach.
 For automated control, four main control schemes with increasing complexity can be distinguished with regard to the TBS:
 
@@ -29,16 +29,16 @@ HVAC-control-schemes
 │   │   NumOfHum.xlsx
 │   │   t_step300_kp-30000_Tf4000_u_massflow.xlsx
 │   │   Weatherdata.xlsx
-│ 
+│
 └───helpers
 │   │   dataPreprocessing.py
 │   │   HVAC.py
 │   │   WetAirToolBox.py
-│      
+│
 └───plc
 │   │   opcUaServer.py
 │   │   plcClientCommunication.py
-│   │   S7Server.py     
+│   │   S7Server.py
 ```
 
 The most important contents of the folder are briefly described below.
@@ -49,15 +49,15 @@ The most important contents of the folder are briefly described below.
 
 `V4.py`: Model-predictive controller with optimisation designated as **V4a** and **V4b** in the paper. This is a model predictive control based on the solution of an optimisation problem. The aim of the optimisation is to minimise an objective function that contains the control objectives. The objective function contains a penalty for the control error as well as for the use of the manipulated variable. On the one hand, the quadratic change in the manipulated variable is weighted, on the other hand, the value of the manipulated variable itself is weighted by a function f. This function f is a model of the HVAC system and returns its power demand. In the **V4a** variant, the model of the HVAC system consists of various equations that describe the static system behaviour on the basis of physical laws. Variant **V4b** uses a surrogate HVAC model that corresponds to a linear relationship between the system performance and the generated air mass flow.
 
-
 ## Disclaimer
+
 > The scripts made available demonstrate the implementation of the control schemes `V2.py`, `V3.py` & `V4.py`.
-> They are intended to simplify the implementation of the control approaches presented in the associated publication from the user's point of view. 
-> No claim is made for completeness. 
-> In order to realise this continuously in practice, all data that is read in locally from the "data" folder, and partly 
+> They are intended to simplify the implementation of the control approaches presented in the associated publication from the user's point of view.
+> No claim is made for completeness.
+> In order to realise this continuously in practice, all data that is read in locally from the "data" folder, and partly
 > also data that is calculated from past measurement data, must be transmitted to the `V2.py`, `V3.py` & `V4.py` scripts in real time.  
-> The script `dataPreprocessing.py` is only needed in the demo case shown to preprocess the local data. 
-> The scripts `WetAirToolBox.py` and `HVAC.py` are also needed in the actual implementation.  
+> The script `dataPreprocessing.py` is only needed in the demo case shown to preprocess the local data.
+> The scripts `WetAirToolBox.py` and `HVAC.py` are also needed in the actual implementation.
 
 `helpers` Folder: Helper functions for `V2.py`, `V3.py` and `V4.py`
 
@@ -69,7 +69,7 @@ to test the communication from the client script `plcClientCommunication.py` loc
 
 ## How to cite
 
-To cite this repository, please refer to:
+If you use this software, please cite the following paper:
 
 > Marcus Vogt, Christian Buchholz, Sebastian Thiede, Christoph Herrmann,
 > Energy efficiency of Heating, Ventilation and Air Conditioning systems in production environments through model-predictive control schemes: The case of battery production,
