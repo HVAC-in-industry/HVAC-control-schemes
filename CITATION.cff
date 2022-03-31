@@ -24,3 +24,5 @@ preferred-citation:
   journal: Journal of Cleaner Production
   volume: 350
   month: 3
+  #start: 1 # First page number
+  #end: 10 # Last page number
