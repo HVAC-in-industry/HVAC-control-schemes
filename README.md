@@ -66,3 +66,14 @@ Currently, either Siemens S7 protocol or OPC UA are supported via this script. T
 to test the communication from the client script `plcClientCommunication.py` locally.
 
 `environment.yml`: Conda environment to run the python scripts.
+
+## How to cite
+
+To cite this repository, please refer to:
+
+> Marcus Vogt, Christian Buchholz, Sebastian Thiede, Christoph Herrmann,
+> Energy efficiency of Heating, Ventilation and Air Conditioning systems in production environments through model-predictive control schemes: The case of battery production,
+> Journal of Cleaner Production,
+> Volume 350,
+> 2022,
+> https://doi.org/10.1016/j.jclepro.2022.131354
