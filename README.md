@@ -1,6 +1,6 @@
 # Model-predictive control schemes for HVAC systems applied to the case of battery production
 
-<a href="http://doge.mit-license.org" target="_blank">
+<a href="http://doge.mit-license.org" target="_blank" rel="noopener noreferrer">
     <img alt="MITLicense" src="http://img.shields.io/:license-mit-blue.svg">
 </a>
 
@@ -53,11 +53,11 @@ The most important contents of the folder are briefly described below.
 
 `V4.py`: Model-predictive controller with optimisation designated as **V4a** and **V4b** in the paper. This is a model predictive control based on the solution of an optimisation problem. The aim of the optimisation is to minimise an objective function that contains the control objectives. The objective function contains a penalty for the control error as well as for the use of the manipulated variable. On the one hand, the quadratic change in the manipulated variable is weighted, on the other hand, the value of the manipulated variable itself is weighted by a function f. This function f is a model of the HVAC system and returns its power demand. In the **V4a** variant, the model of the HVAC system consists of various equations that describe the static system behaviour on the basis of physical laws. Variant **V4b** uses a surrogate HVAC model that corresponds to a linear relationship between the system performance and the generated air mass flow.
 
-## A glance into the repository
+## A glance into this repository
 The scripts `V2`, `V3` and `V4` can be tested via Binder 
 if you want to take a look online without setting up or installing anything:
 
-<a href="https://mybinder.org/v2/gh/HVAC-in-industry/HVAC-control-schemes.git/HEAD" target="_blank">
+<a href="https://mybinder.org/v2/gh/HVAC-in-industry/HVAC-control-schemes.git/HEAD" target="_blank" rel="noopener noreferrer">
     <img alt="MITLicense" src="https://mybinder.org/badge_logo.svg">
 </a>
 
@@ -96,13 +96,19 @@ On Windows use the following commands for installation of the environment in the
 
 Via conda:
 ```
-1.) conda env create -f environment.yml
-2.) conda activate envMPCy3.8
+conda env create -f environment.yml
+```
+```
+conda activate envMPCy3.8
 ```
 
 Via pip virtual environment:
 ```
-1.) python -m venv envMPCy3.8
-2.) .\envMPCy3.8\Scripts\activate
-3.) pip install -r requirements.txt
+python -m venv envMPCy3.8
+```
+```
+.\envMPCy3.8\Scripts\activate
+```
+```
+pip install -r requirements.txt
 ```
