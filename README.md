@@ -1,6 +1,8 @@
 # Model-predictive control schemes for HVAC systems applied to the case of battery production
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+<a href="http://doge.mit-license.org" target="_blank">
+    <img alt="MITLicense" src="http://img.shields.io/:license-mit-blue.svg">
+</a>
 
 In order to continuously leverage the energy efficiency potential of HVAC systems in the operation phase, automated control is essential.
 To implement automated control, accurate indoor air condition monitoring in the building is necessary as part of the control approach.
@@ -22,7 +24,9 @@ HVAC-control-schemes
 │   V3.py
 │   V4.py
 │   README.md
+│   LICENSE
 │   environment.yml
+│   requirements.txt
 │
 └───data
 │   │   moisture_load.csv
@@ -52,7 +56,10 @@ The most important contents of the folder are briefly described below.
 ## A glance into the repository
 The scripts `V2`, `V3` and `V4` can be tested via Binder 
 if you want to take a look online without setting up or installing anything:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HVAC-in-industry/HVAC-control-schemes.git/HEAD)
+
+<a href="https://mybinder.org/v2/gh/HVAC-in-industry/HVAC-control-schemes.git/HEAD" target="_blank">
+    <img alt="MITLicense" src="https://mybinder.org/badge_logo.svg">
+</a>
 
 ## Disclaimer
 
