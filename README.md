@@ -92,7 +92,7 @@ If you use this software, please cite the following paper:
 
 ## Installation
 Either conda or pip virtual environment can be used for installation. 
-On Windows use the following commands for installation of the environment in the command line.
+On Windows use the following commands for installation of the environment in the command line after navigating to root of this repository.
 
 Via conda:
 ```
