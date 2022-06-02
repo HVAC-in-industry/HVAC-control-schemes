@@ -11,7 +11,7 @@ opcua==0.98.13
 openpyxl==3.0.9
 packaging==21.3
 pandas==1.4.2
-Pillow==9.1.0
+Pillow==9.1.1
 pyparsing==3.0.9
 python-dateutil==2.8.2
 python-snap7==1.1
